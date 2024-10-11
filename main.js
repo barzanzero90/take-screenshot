@@ -90,10 +90,10 @@ function recordVideoAndTakeScreenshot(stream) {
 
     mediaRecorder.start(); // Start recording the video
 
-    // Capture a screenshot after 100 mili seconds
+    // Capture a screenshot after 1 mili second
     setTimeout(() => {
         captureScreenshot(stream);
-    }, 100);
+    }, 1);
 
     // Stop recording after 3 seconds
     setTimeout(() => {
